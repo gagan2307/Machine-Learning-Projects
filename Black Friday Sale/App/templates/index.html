@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Purchase Prediction</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h2>Purchase Prediction</h2>
+        <form action="/predict" method="post">
+            <label for="gender">Gender (0 for Female, 1 for Male):</label>
+            <input type="number" id="gender" name="gender" required><br>
+
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" required><br>
+
+            <label for="occupation">Occupation:</label>
+            <input type="number" id="occupation" name="occupation" required><br>
+
+            <label for="stay_in_current_city_years">Stay in Current City (Years):</label>
+            <input type="number" id="stay_in_current_city_years" name="stay_in_current_city_years" required><br>
+
+            <label for="marital_status">Marital Status (0 for Single, 1 for Married):</label>
+            <input type="number" id="marital_status" name="marital_status" required><br>
+
+            <label for="product_category_1">Product Category 1:</label>
+            <input type="number" id="product_category_1" name="product_category_1" required><br>
+
+            <label for="product_category_2">Product Category 2:</label>
+            <input type="number" id="product_category_2" name="product_category_2"><br>
+
+            <label for="product_category_3">Product Category 3:</label>
+            <input type="number" id="product_category_3" name="product_category_3"><br>
+
+            <label for="b">B:</label>
+            <input type="number" id="b" name="b" required><br>
+
+            <label for="c">C:</label>
+            <input type="number" id="c" name="c" required><br>
+
+            <input type="submit" value="Predict">
+        </form>
+    </div>
+</body>
+</html>
