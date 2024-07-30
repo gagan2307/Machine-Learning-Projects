@@ -4,15 +4,14 @@ This project is a web application for image classification using Flask and Tenso
 which are then classified by a pre-trained model. The project also includes a Jupyter notebook for training the model.
 
 Your Directory should look like this
-- **app/**: Contains the Flask application files.
-  - `app.py`: The main Flask application file.
-  -`modelcn.h5`
-  -`additional_data.pkl`
-  - `static/`: Directory for static files (e.g., CSS, images).
-    -`styles.css`
-    -`background.jpg`
-  - `templates/`: Directory for HTML templates.
-    -`index.html`
+- `app.py`: The main Flask application file.
+-`modelcn.h5`
+-`additional_data.pkl`
+- `static/`: Directory for static files (e.g., CSS, images).
+  -`styles.css`
+  -`background.jpg`
+- `templates/`: Directory for HTML templates.
+  -`index.html`
 
 ## Prerequisites
 
