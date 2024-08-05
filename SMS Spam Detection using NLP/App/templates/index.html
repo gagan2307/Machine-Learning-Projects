@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spam Detection</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Spam Detection</h1>
+        <form method="POST">
+            <textarea name="message" placeholder="Enter your message here...">{{ message if message else "" }}</textarea>
+            <button type="submit">Predict</button>
+        </form>
+        {% if prediction is not none %}
+            <div class="result">
+                <h2>Prediction: {{ prediction }}</h2>
+                <input type="checkbox" id="toggle-details" class="toggle-details">
+                <label for="toggle-details" class="btn">View Details</label>
+                <div id="details">
+                    <p>Spam Probability: {{ prediction_prob[1] }}</p>
+                    <p>Not Spam Probability: {{ prediction_prob[0] }}</p>
+                </div>
+            </div>
+        {% endif %}
+    </div>
+</body>
+</html>
