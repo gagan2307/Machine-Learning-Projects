@@ -26,3 +26,7 @@ Your Directory should look like this
 
 # You can download the Dataset from here
 https://www.kaggle.com/datasets/puneet6060/intel-image-classification
+
+
+![cnn_home](https://github.com/user-attachments/assets/2047ab54-d3d2-4dc3-8569-ccb14d9af29e)
+
