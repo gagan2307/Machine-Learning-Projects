@@ -30,3 +30,6 @@ https://www.kaggle.com/datasets/puneet6060/intel-image-classification
 
 ![cnn_home](https://github.com/user-attachments/assets/2047ab54-d3d2-4dc3-8569-ccb14d9af29e)
 
+![cnn_predict](https://github.com/user-attachments/assets/7a47b2df-ac2a-4cba-a614-93eabed96629)
+
+
