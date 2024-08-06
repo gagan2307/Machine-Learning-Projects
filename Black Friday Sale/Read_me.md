@@ -18,18 +18,18 @@ The dataset contains the following features:
 11. C: City Category C
 12. Purchase: Purchase amount (Target variable)
 
-Objective
+#### Objective
 The objective of this project is to predict the Purchase amount based on the given features using a machine learning model.
 
-Getting Started
-Prerequisites
-To run this project, you'll need the following installed:
+#### Getting Started
+##### Prerequisites
+###### To run this project, you'll need the following installed:
 
-Python 3.x
-Flask
-scikit-learn
-pandas
-numpy
-matplotlib
-tensorflow
+1. Python 3.x
+2. Flask
+3. scikit-learn
+4. pandas
+5. numpy
+6. matplotlib
+7. tensorflow
 
