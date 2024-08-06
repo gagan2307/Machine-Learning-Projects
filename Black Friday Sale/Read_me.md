@@ -33,3 +33,9 @@ The objective of this project is to predict the Purchase amount based on the giv
 6. matplotlib
 7. tensorflow
 
+
+![Black_Friday home](https://github.com/user-attachments/assets/640bf5aa-e2bf-4c91-9efc-ac5104a0d797)
+
+![Black_Friday predict](https://github.com/user-attachments/assets/02224bf1-083d-4a5e-ad0a-c137baa53e59)
+
+
